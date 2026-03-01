@@ -11,7 +11,7 @@
 #   - uv sync (project-specific deps)
 #   - Rust/Python venv caches (via actions/cache)
 
-ARG RUNNER_VERSION=2.322.0
+ARG RUNNER_VERSION=2.332.0
 FROM ghcr.io/actions/actions-runner:${RUNNER_VERSION}
 
 # System build dependencies (as root)
